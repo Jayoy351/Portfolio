@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - John Rhoy</title>
+    <link rel="icon" type="image/png" href="C:\Users\admin\Documents\VSCODE\image\Rhoy.png">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="contact">
     <header>
         <h1>Contact Me</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="blog.html">Blog</a></li>
+                <li><a href="works.html">Works</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -45,11 +48,14 @@
             <input type="checkbox" name="newsletter" id="newsletter">
             <label for="newsletter">Subscribe to NewsLetter</label>
 
-            <p>Prefered Contact Method</p>
-             <input type="radio" id="contact-email" name="contact-method" value="email">
-            <label for="contact-email">Email</label>
-            <input type="radio" id="contact-phone" name="contact-method" value="phone">
-            <label for="contact-phone">Phone</label><br><br>
+            <p>Preferred Contact Method</p>
+                <div class="contact-method-group">
+                <input type="radio" id="contact-email" name="contact-method" value="email">
+                <label for="contact-email">Email</label>
+                <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                <label for="contact-phone">Phone</label>
+            </div>
+            <br><br>
         
             <button type="submit">Send</button>
         </form>
